@@ -1,0 +1,14 @@
+>>> import numpy as np
+>>> from sklearn import datasets
+>>> from sklearn.svm import SVC
+>>> from sklearn import svm
+>>> import matplotlib.pyplot as plt
+
+>>> from sklearn import random_projection
+>>> clf = svm.SVC(gamma=0.001, C=100.)
+>>> clf = svm.SVC()
+>>> regr = linear_model.LinearRegression()
+
+>>> from sklearn import decomposition
+>>> pca = decomposition.PCA()
+>>> pca.fit(X)
