@@ -1,0 +1,8 @@
+import pandas as pd
+# read CSV file directly from a URL and save the results
+data = pd.read_csv('http://www-bcf.usc.edu/~gareth/ISL/Advertising.csv', index_col=0)
+#    = pd.read_csv(file)
+
+data.head()
+data.tail()
+data.shape
