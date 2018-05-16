@@ -13,3 +13,6 @@ print(metrics.mean_squared_error(y_test, y_pred))
 
 # compute the RMSE of our predictions
 print(np.sqrt(metrics.mean_squared_error(y_test, y_pred)))
+
+# for classification
+print(metrics.accuracy_score(y_test, y_pred_class))
